@@ -75,7 +75,7 @@ const Work = ({ nextProject }: InferGetServerSidePropsType<typeof getStaticProps
 Recently, I've been diving into Framer Motion, and I've cooked up something fun. If you hit that hamburger menu, you're in for a cool animation surprise. It's all about adding a dash of flair to the mix! Take a look on the video below"
                 />
                 <div sx={{ mb: 40 }}>
-                  <video width="100%" height="" controls autoPlay preload="none">
+                  <video width="100%" height="" controls preload="none">
                     <source src="/images/work/portfolio/showcase.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
